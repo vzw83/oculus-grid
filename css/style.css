@@ -252,3 +252,73 @@ body{
   color: #F6F4F5 ;
   font-size: 13px;
 }
+
+.game{
+  margin-bottom: 100px;
+}
+
+.game__title{
+  margin-bottom: 50px;
+}
+
+.game__inner{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.game__descr{
+  padding-right: 10px;
+}
+
+
+.game__descr-title{
+  text-transform: uppercase;
+  font-size: 36px;
+  background: var(--gradient, linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+}
+
+.game__descr-text{
+  margin-bottom: 30px;
+}
+
+.game__link{
+  display: inline-block;
+  text-transform: uppercase;
+  background: var(--gradient, linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  padding: 14px 48px;
+  border: 1px solid #BC10D8;
+}
+
+.game__item{
+  border: 1px solid #BC10D8;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;  
+}
+.game__item-img{
+  margin-bottom: 10px;
+}
+.game__item-title{
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #070707;
+}
+.game__item-text{
+margin-bottom: 30px;
+}
+
+.game__item-link{
+  background: var(--gradient, linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: auto;
+}
